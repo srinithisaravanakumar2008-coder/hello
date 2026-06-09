@@ -6,8 +6,7 @@ void main(){
             {78, 90, 34},
             {86, 65, 89},
             {12, 34, 56},
-            {66, 12, 89},
-    };
+     };
     for(int row = 0;row < studentMarks.length;row++){
         for(int col = 0;col < studentMarks[row].length;col++){
             System.out.print(studentMarks[row][col] +" ");
@@ -15,7 +14,7 @@ void main(){
         System.out.println();
     }
 }*/
- void main(){
+ /*void main(){
      int[][] attendance = {
              {0,1,0},
              {1,0,0},
@@ -36,4 +35,26 @@ void main(){
          }
          System.out.println();
      }
+ }*/
+ void main() {
+     System.out.println(add(10 , 5));
+     System.out.println(subract(10 , 5));
+     System.out.println(multiplication(10 , 5));
+     System.out.println(division(10 , 5));
+     System.out.println(modules(10 , 5));
+ }
+ public int add (int a,int b){
+     return a+b;
+ }
+ public int subract (int a,int b){
+     return a-b;
+ }
+ public int multiplication (int a,int b){
+     return a*b;
+ }
+ public int division (int a,int b){
+     return a/b;
+ }
+ public int modules (int a,int b){
+     return a%b;
  }
