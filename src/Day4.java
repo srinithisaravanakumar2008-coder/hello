@@ -1,4 +1,4 @@
- /*
+/*
 void main(){
     int[][] marks = new int[5][3];
     int[][] studentMarks = {
