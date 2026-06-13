@@ -17,42 +17,34 @@ public class Day6_part {
         int MathsMark;
         int PhysicsMark;
         int CSEMark;
-
         void StudentInfo(String Name, int RegNo) {
             this.Name = Name;
             this.RegNo = RegNo;
         }
-
         void information(String Name, int RegNo, String Department) {
             this.Name = Name;
             this.RegNo = RegNo;
             this.Department = Department;
         }
-
         int getMathsMark() {
             return MathsMark;
         }
-
         int getPhysicsMark() {
             return PhysicsMark;
         }
-
         int getCSEMark() {
             return CSEMark;
         }
-
         void StudentMarks(int MathsMark) {
             this.MathsMark = MathsMark;
             System.out.println("Updating Maths Mark : " + MathsMark);
         }
-
         void StudentMarks(int PhysicsMark, int CSEMark) {
             this.PhysicsMark = PhysicsMark;
             this.CSEMark = CSEMark;
             System.out.println("Updating Physics Mark : " + PhysicsMark);
             System.out.println("Updating CSE Mark : " + CSEMark);
         }
-
         void display() {
             System.out.println("Name : " + Name);
             System.out.println("Reg No : " + RegNo);
@@ -62,7 +54,6 @@ public class Day6_part {
             System.out.println("CSE Mark : " + CSEMark);
         }
     }
-
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.StudentInfo("Srinithi", 252860);
@@ -71,4 +62,3 @@ public class Day6_part {
         s1.StudentMarks(85, 95);
         s1.display();
     }
-}
