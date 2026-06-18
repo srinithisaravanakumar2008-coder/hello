@@ -20,8 +20,8 @@ public class Day10Linked {
 
     static void updateStudent(LinkedList<Student> students) {
         for (Student s : students) {
-            if (s.name.equals("Thanyasri")) {
-                s.marks = 95; // Update marks from 85 to 95
+            if (s.name.equals("Srinithi")) {
+                s.marks = 95;
             }
         }
     }
@@ -29,11 +29,11 @@ public class Day10Linked {
     public static void main(String[] args) {
 
         LinkedList<Student> students = new LinkedList<>();
-        students.add(new Student("Srinithi", 2560, 80));
+        students.add(new Student("Pooja", 2542, 80));
         students.add(new Student("Sanjana", 2552, 79));
         students.add(new Student("Thanyasri", 2565, 90));
         students.add(new Student("Gayathri", 2559, 75));
-        students.add(new Student("Pooja", 2542, 88));
+        students.add(new Student("Srinithi", 2560, 88));
 
         removeStudent(students);
 
@@ -41,11 +41,7 @@ public class Day10Linked {
 
         System.out.println("\nStudent Details");
         for (Student s : students) {
-            System.out.println(
-                    s.name + " " +
-                            s.regNo + " " +
-                            s.marks
-            );
+            System.out.println(s.name + " " +s.regNo + " " + s.marks);
         }
     }
 }
