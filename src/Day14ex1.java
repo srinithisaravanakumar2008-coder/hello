@@ -27,6 +27,6 @@ public class Day14ex1 {
         Day14ex1 sms = new Day14ex1();
 
         String type = "Whatsapp";
-        getNotification(sms, type).send("98765432140","How are you ?");
+        getNotification(sms, type).send("9876543210","How are you ?");
     }
 }
